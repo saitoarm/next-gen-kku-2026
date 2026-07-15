@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://saitoarm.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/next-gen-kku-2026/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
