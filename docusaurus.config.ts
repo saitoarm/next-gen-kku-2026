@@ -18,13 +18,13 @@ const config: Config = {
   url: 'https://saitoarm.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/next-gen-kku-2026/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'saitoarm', // Usually your GitHub org/user name.
   projectName: 'next-gen-kku-2026', // Usually your repo name.
-
+  trailingSlash: false,
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
