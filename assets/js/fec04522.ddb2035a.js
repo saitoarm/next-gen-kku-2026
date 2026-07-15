@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknxt_gen_docs=self.webpackChunknxt_gen_docs||[]).push([["161"],{5157(e){e.exports=JSON.parse('{"metadata":{"permalink":"/next-gen-kku-2026/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

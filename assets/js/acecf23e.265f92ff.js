@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknxt_gen_docs=self.webpackChunknxt_gen_docs||[]).push([["220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/next-gen-kku-2026/blog","blogTitle":"Blog","authorsListPath":"/next-gen-kku-2026/blog/authors"}')}}]);
