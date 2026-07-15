@@ -26,7 +26,6 @@ const config: Config = {
   projectName: 'next-gen-kku-2026', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  deploymentBranch: 'main',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
