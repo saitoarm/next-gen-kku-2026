@@ -52,7 +52,7 @@ my-budget-app/
 ฉันกำลังทำ Mini Project "ระบบบันทึกรายรับรายจ่าย" โดยเลือกใช้ Tech Stack ดังนี้:
 - Frontend: HTML/CSS/JS ธรรมดา ใช้ Bootstrap 5 ผ่าน CDN ตกแต่งหน้าจอ
 - Backend: Node.js (Express)
-- Database: ไม่ใช้ฐานข้อมูลจริง ให้เขียน Logic บันทึกข้อมูลแบบ In-Memory Array บน Backend ชั่วคราว (หรือให้เก็บลง LocalStorage แนะนำแนวทางที่ดีที่สุดสำหรับการเอาขึ้น Serverless Vercel)
+- Database: ไม่ใช้ฐานข้อมูลจริง ให้เขียน Logic บันทึกข้อมูลแบบเก็บลง LocalStorage แนะนำแนวทางที่ดีที่สุดสำหรับการเอาขึ้น Serverless Vercel
 
 ช่วยทำหน้าที่เป็น Principal System Architect ช่วยสรุปและออกแบบ:
 1. โครงสร้าง JSON Schema สำหรับข้อมูลรายรับรายจ่าย (เช่น ID, Type, Category, Amount, Date, Note)
@@ -80,7 +80,7 @@ my-budget-app/
 สร้างไฟล์ `api/index.js` ขึ้นมา และป้อนพรอมต์ข้อกำหนดด้านล่างนี้ให้ Cline ทำงาน:
 ```text
 อ้างอิงจากแผนงานใน `SYSTEM_SPEC.md` ช่วยสร้าง Backend API ด้วย Node.js และ Express.js ในไฟล์ `api/index.js` 
-โดยให้เก็บข้อมูลชั่วคราวเป็น Array ในหน่วยความจำ (In-Memory) และสร้าง Endpoint ทั้งหมดดังนี้:
+โดยให้เก็บข้อมูลบันทึกข้อมูลแบบเก็บลง LocalStorage แนะนำแนวทางที่ดีที่สุดสำหรับการเอาขึ้น Serverless Vercel สร้าง Endpoint ทั้งหมดดังนี้:
 1. GET /api/transactions - ดึงรายการทั้งหมด
 2. POST /api/transactions - เพิ่มรายการใหม่
 3. PUT /api/transactions/:id - แก้ไขรายการ
