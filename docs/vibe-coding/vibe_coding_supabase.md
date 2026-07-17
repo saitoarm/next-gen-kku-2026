@@ -85,7 +85,7 @@ my-budget-app/
 
 ## 🛠️ ขั้นตอนที่ 3: เริ่มเขียนโค้ดทีละสเต็ปด้วย Cline (DeepSeek)
 
-ติดตั้ง Extension **Cline** บน VS Code เชื่อมต่อกับ **DeepSeek (ผ่าน OpenRouter หรือ Ollama)** และสร้างไฟล์ `.gitignore` เพื่อป้องกันข้อมูลความลับรั่วไหล:
+ติดตั้ง Extension **Cline** บน VS Code เชื่อมต่อกับ **DeepSeek (ผ่าน ClinePass)** และสร้างไฟล์ `.gitignore` เพื่อป้องกันข้อมูลความลับรั่วไหล:
 ```text
 node_modules/
 .env
